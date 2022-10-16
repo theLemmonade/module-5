@@ -6,7 +6,7 @@ function scheduler() {
         var thisInput = $(this).siblings(".description").val();
         localStorage.setItem(thisBlock, thisInput);
     })
-//determine Time of Day, attribute corresponding .css class
+//determine Time of Day, attribute corresponding .css class to row
     function classToD() {
         var current = moment().hour();
         $(".time-block").each(function () {
