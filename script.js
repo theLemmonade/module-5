@@ -16,7 +16,7 @@ function scheduler() {
                 $(this).addClass("past");
                 $(this).removeClass("future");
                 $(this).removeClass("present");
-            }
+            } 
             else if (other == current) {
                 $(this).removeClass("past");
                 $(this).addClass("present");
